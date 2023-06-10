@@ -1,19 +1,32 @@
 <template>
-    <div>Shop PC_LAPTOP_MOBILE</div>
+  <div class="flex w-screen justify-center">
+    <div class="grid">
+      <div class="text-center">Shop PC_LAPTOP_MOBILE</div>
+      <ul class="flex justify-between">
+        <li>
+          <nuxt-link
+          class="font-bold text-green-400 hover:opacity-75 hover:text-red-500"
 
-    <ul>
-        <li>
-            <nuxt-link class="hover:opacity-75 hover:text-red-500" :to="'/danhsach/laptop'"> LapTop </nuxt-link>
+            :to="'/danhsach/laptop'"
+          >
+            LapTop
+          </nuxt-link>
         </li>
         <li>
-            <nuxt-link> Mobile </nuxt-link>
+          <nuxt-link
+            class="font-bold text-green-400 hover:opacity-75 hover:text-red-500"
+          :to="'/danhsach/mobile'"
+            >
+            Mobile
+          </nuxt-link>
         </li>
-    </ul>
+      </ul>
+    </div>
+  </div>
 </template>
 
 <script lang="ts">
-
 definePageMeta({
-    layout: 'homelayout'
-})
+  layout: "homelayout",
+});
 </script>

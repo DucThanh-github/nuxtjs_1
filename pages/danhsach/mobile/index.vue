@@ -1,18 +1,15 @@
 <template>
     <div class="flex flex-col item-center text-center">
-            <h1>List laptop</h1>
+            <h1>List mobile</h1>
         <ul class=" ">
-            <li>Dell</li>
-            <li>Hp</li>
-            <li>Asus</li>
+            <li>Iphone</li>
+            <li>Samsung</li>
         </ul>
-       
-        
-    </div>
+        </div>
 </template>
 
 <script lang="ts" setup>
 definePageMeta({
-    layout: "laptoplayout",
+    layout: 'mobilelayout'
 })
 </script>

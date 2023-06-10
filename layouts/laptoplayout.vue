@@ -1,8 +1,9 @@
 <template>
-    <div>
-        <header>Laptop Page Layout</header>
-        <nuxt-link :to="'/'">HOME</nuxt-link>
+<div class="mt-8">
+        <header class="text-center mb-4 font-bold">
+                LAPTOP PAGE
+        </header>
+        <nuxt-link class=" block text-center mb-4 font-bold  hover:opacity-75 hover:text-red-500"  :to="'/'">HOME</nuxt-link>
         <slot />
-        
     </div>
 </template>
